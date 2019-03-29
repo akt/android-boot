@@ -3,4 +3,12 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="random_1">#FF6E7FB5</color>
+    <color name="random_2">#FFC5212C</color>
+    <color name="random_3">#FF34A9B1</color>
+    <color name="random_4">#FF564290</color>
+    <color name="random_5">#FFEEA556</color>
+    <color name="random_6">#FF61C25A</color>
+    <color name="random_7">#FF8CADD7</color>
 </resources>
