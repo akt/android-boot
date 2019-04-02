@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion build_versions.target_sdk
@@ -20,6 +21,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    configurations.all {
+        exclude module: 'groovy-all'
+    }
 }
 
 dependencies {
@@ -29,4 +34,8 @@ dependencies {
     implementation deps.androidX.appCompat
     implementation deps.androidX.ktx
     implementation deps.androidX.constraintLayout
+
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.extensions
+    kapt deps.lifecycle.compiler
 }
