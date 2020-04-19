@@ -3,15 +3,20 @@ package com.biz.login
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import javax.inject.Inject
 
-class LoginActivity: AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
-    lateinit var useCase: SumUseCase
+    @Inject
+    lateinit var sumUseCase: SumUseCase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        useCase = SumUseCase()
+        DaggerLoginComponent.builder()
+            .loginModule(LoginModule(application))
+            .coreModule(CoreModule(application))
+            .build().inject(this)
     }
 
 
