@@ -20,4 +20,27 @@
         android:textSize="19sp" />
 
 
+    <TextView
+        android:id="@+id/toLogin"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@color/random_1"
+        android:onClick="onClick"
+        android:text="login"
+        android:textColor="@android:color/white"
+        android:textSize="19sp" />
+
+
+    <TextView
+        android:id="@+id/subscriptionText"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@color/random_1"
+        android:textColor="@android:color/white"
+        android:textSize="19sp" />
+
 </LinearLayout>

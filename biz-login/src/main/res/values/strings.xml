@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="both_numbers_must_be_positive">Both numbers must be greater than 0!!</string>
+    <string name="fail_message">fail</string>
+    <string name="success_message">success</string>
 
 </resources>

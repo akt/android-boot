@@ -1,4 +1,4 @@
-package com.biz.login
+package com.lab.core.resource
 
 import android.app.Application
 import androidx.annotation.StringRes

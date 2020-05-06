@@ -1,6 +1,7 @@
-package com.biz.login
+package com.lab.core.di
 
 import android.app.Application
+import com.lab.core.resource.StringsProvider
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

@@ -31,6 +31,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':db')
     implementation project(':biz-login')
+    implementation project(':lib-core')
     implementation deps.kotlin.stdlib
     implementation deps.androidX.appCompat
     implementation deps.androidX.ktx
@@ -39,4 +40,7 @@ dependencies {
     implementation deps.lifecycle.runtime
     implementation deps.lifecycle.extensions
     kapt deps.lifecycle.compiler
+
+    api deps.dagger.dagger
+    kapt deps.dagger.daggerCompiler
 }

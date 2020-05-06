@@ -31,6 +31,7 @@ dependencies {
     implementation deps.kotlin.stdlib
     implementation deps.androidX.appCompat
     implementation deps.androidX.ktx
+    implementation project(':lib-core')
 
     api deps.dagger.dagger
     kapt deps.dagger.daggerCompiler
