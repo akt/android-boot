@@ -25,12 +25,18 @@ android {
     configurations.all {
         exclude module: 'groovy-all'
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+        //If you want to continue even if errors found use following line
+        abortOnError false
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':db')
     implementation project(':biz-login')
+    implementation project(':lib-storage')
     implementation project(':lib-core')
     implementation deps.kotlin.stdlib
     implementation deps.androidX.appCompat

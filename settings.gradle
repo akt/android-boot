@@ -1,4 +1,4 @@
 include ':app',
         ':lib-core',
-        'db',
+        'lib-storage',
         ':biz-login'
