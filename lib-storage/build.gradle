@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
@@ -8,11 +8,19 @@ android {
     buildToolsVersion build_versions.build_tools
 
     defaultConfig {
-        applicationId "com.aboot"
         minSdkVersion build_versions.min_sdk
         targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                        "room.schemaLocation"  : "$projectDir/schemas".toString(),
+                        "room.incremental"     : "true",
+                        "room.expandProjection": "true"]
+            }
+        }
+
     }
 
     buildTypes {
@@ -22,31 +30,18 @@ android {
         }
     }
 
-    configurations.all {
-        exclude module: 'groovy-all'
-    }
-
-    lintOptions {
-        checkReleaseBuilds false
-        //If you want to continue even if errors found use following line
-        abortOnError false
-    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':biz-login')
-    implementation project(':lib-storage')
-    implementation project(':lib-core')
     implementation deps.kotlin.stdlib
     implementation deps.androidX.appCompat
-    implementation deps.androidX.ktx
-    implementation deps.androidX.constraintLayout
+    implementation deps.room.runtime
+    kapt deps.room.compiler
+    implementation deps.room.rxjava2
 
-    implementation deps.lifecycle.runtime
-    implementation deps.lifecycle.extensions
-    kapt deps.lifecycle.compiler
+    implementation deps.rx2_android
+    implementation deps.rxjava2
 
-    api deps.dagger.dagger
-    kapt deps.dagger.daggerCompiler
+
 }

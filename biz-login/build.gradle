@@ -4,16 +4,17 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion build_versions.target_sdk
-    buildToolsVersion build_versions.build_tools
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
-        minSdkVersion build_versions.min_sdk
-        targetSdkVersion build_versions.target_sdk
+        minSdkVersion 21
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
-
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
     }
 
     buildTypes {
@@ -29,12 +30,10 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation deps.kotlin.stdlib
     implementation deps.androidX.appCompat
-    implementation deps.room.runtime
-    kapt deps.room.compiler
-    implementation deps.room.rxjava2
+    implementation deps.androidX.ktx
+    implementation project(':lib-core')
 
-    implementation deps.rx2_android
-    implementation deps.rxjava2
-
+    api deps.dagger.dagger
+    kapt deps.dagger.daggerCompiler
 
 }

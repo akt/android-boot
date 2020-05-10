@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fail_message">fail</string>
+    <string name="success_message">success</string>
+
+</resources>

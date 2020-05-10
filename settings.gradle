@@ -1,2 +1,4 @@
-include ':app'
-include 'db'
+include ':app',
+        ':lib-core',
+        'lib-storage',
+        ':biz-login'
