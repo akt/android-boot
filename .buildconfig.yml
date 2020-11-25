@@ -13,6 +13,6 @@ projects:
     description: 'login business'
     publish: true
   app:
-    path: app
+    path: apps/app
     description: 'sample apps'
     publish: false
