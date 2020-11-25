@@ -1,0 +1,18 @@
+componentsVersion: 1.0.0
+projects:
+  lib-core:
+    path: lib-core
+    description: 'core of library'
+    publish: true
+  lib-storage:
+    path: lib-storage
+    description: 'storage lib'
+    publish: true
+  biz-login:
+    path: biz-login
+    description: 'login business'
+    publish: true
+  app:
+    path: app
+    description: 'sample apps'
+    publish: false
