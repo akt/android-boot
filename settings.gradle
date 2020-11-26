@@ -1,4 +1,4 @@
-//include ':app',
+include ':testapp'//include ':app',
 //        ':lib-core',
 //        'lib-storage',
 //        ':biz-login'
