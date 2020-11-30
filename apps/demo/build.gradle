@@ -5,7 +5,6 @@ apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion build_versions.target_sdk
-    buildToolsVersion build_versions.build_tools
 
     defaultConfig {
         applicationId "com.aboot"
@@ -35,7 +34,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':biz-login')
+    implementation project(':feature-login')
     implementation project(':lib-storage')
     implementation project(':lib-core')
     implementation deps.kotlin.stdlib

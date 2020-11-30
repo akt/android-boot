@@ -8,9 +8,9 @@ projects:
     path: components/lib/storage
     description: 'storage lib'
     publish: true
-  biz-login:
-    path: biz-login
-    description: 'login business'
+  feature-login:
+    path: components/feature/login
+    description: 'login feature'
     publish: true
   apps-demo:
     path: apps/demo
