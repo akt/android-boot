@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text size -->
+
+    <dimen name="txtSizeF0">7sp</dimen>
+    <dimen name="txtSizeF1">11sp</dimen>
+    <dimen name="txtSizeF2">12sp</dimen>
+    <dimen name="txtSizeF3">14sp</dimen>
+    <dimen name="txtSizeF4">15sp</dimen>
+    <dimen name="txtSizeF8">16sp</dimen>
+    <dimen name="txtSizeF5">21sp</dimen>
+    <dimen name="txtSizeF6">27sp</dimen>
+    <dimen name="txtSizeF7">18sp</dimen>
+
+    <dimen name="txtSize9">8sp</dimen>
+    <dimen name="txtSize10">9sp</dimen>
+    <dimen name="txtSize11">10sp</dimen>
+    <dimen name="txtSize12">11sp</dimen>
+    <dimen name="txtSize13">12sp</dimen>
+    <dimen name="txtSize14">12sp</dimen>
+    <dimen name="txtSize15">13sp</dimen>
+    <dimen name="txtSize16">14sp</dimen>
+    <dimen name="txtSize17">15sp</dimen>
+    <dimen name="txtSize18">16sp</dimen>
+    <dimen name="txtSize19">17sp</dimen>
+    <dimen name="txtSize20">18sp</dimen>
+    <dimen name="txtSize26">23sp</dimen>
+    <dimen name="txtSize28">25sp</dimen>
+    <dimen name="txtSize32">28sp</dimen>
+    <dimen name="txtSize33">33sp</dimen>
+    <dimen name="txtSize34">34sp</dimen>
+
+    <dimen name="dialog_default_width">300dp</dimen>
+
+    <dimen name="popupMaxHeight">365dp</dimen>
+    <dimen name="popupWidth">136dp</dimen>
+
+
+    <dimen name="listHeightTitle">@dimen/size30</dimen>    <!-- list title的高度 -->
+    <dimen name="listHeight1">@dimen/size50</dimen>    <!-- 单个list或类list的高度 -->
+    <dimen name="listHeight2">@dimen/size56</dimen>    <!-- list中两行显示的，上下高度比例 7：6 -->
+    <dimen name="listHeight3">@dimen/size89</dimen>    <!-- 智能记账界面List Item的高度 -->
+    <dimen name="buttonHeight">@dimen/size45</dimen>   <!-- 通常的单个button的高度 -->
+    <dimen name="dialogBtnHeight">@dimen/size35</dimen>   <!-- 通常的单个button的高度 -->
+
+    <!-- size for layout -->
+    <dimen name="paperMarginLR">@dimen/size6</dimen> <!-- 圆角白纸相对于斜纹背景的margin。 -->
+    <dimen name="paperMarginTop">@dimen/size8</dimen>
+    <dimen name="paperMarginBottom">@dimen/size4</dimen>
+    <dimen name="paperPaddingLR">@dimen/size12</dimen> <!-- 圆角白纸中文字的padding。 -->
+    <dimen name="bgPaddingLR">@dimen/size18</dimen>    <!-- 背景直接到文字的padding -->
+
+    <dimen name="grayBtnHeight">@dimen/size30</dimen>  <!-- 灰白色button的高度 -->
+    <dimen name="paperShadeLR">@dimen/size2</dimen>
+    <dimen name="paperShadeBottom">@dimen/size4</dimen>
+    <dimen name="buttonHeight1">@dimen/size36</dimen>
+    <dimen name="buttonHeight2">@dimen/size28</dimen>
+
+    <dimen name="paperMarginB1">@dimen/size14
+    </dimen> <!-- the bottom menu has padding with blue background -->
+    <dimen name="paperMarginB2">@dimen/size6
+    </dimen> <!-- the bottom menu over the blue background -->
+    <dimen name="paperPaddingTop">@dimen/size8</dimen>
+    <dimen name="paperPaddingLRC">@dimen/size10
+    </dimen> <!--  paper padding relative to 1 C  content -->
+
+    <dimen name="bluePgPaddingLR1">@dimen/size8</dimen> <!-- content relative to  blue bg -->
+    <dimen name="bluePgPaddingLR2">@dimen/size10</dimen> <!-- content relative to divider -->
+
+    <dimen name="listCornerPadding">@dimen/size18
+    </dimen> <!-- list should padding bottom because of the corner -->
+    <dimen name="progress">32dp</dimen>
+    <dimen name="actionbarHeight">44dp</dimen>
+    <dimen name="tabHeight">36dp</dimen>
+
+    <!-- dimens for CircleProgressView -->
+    <dimen name="shadowWidth">@dimen/size1</dimen>
+    <dimen name="strokeWidth">@dimen/size3</dimen>
+
+    <!-- dimens for RecordAnimView -->
+    <dimen name="arrowStartPos">@dimen/sizen4</dimen>
+    <dimen name="arrowStartOff">@dimen/sizen6</dimen>
+    <dimen name="animStep">@dimen/size2</dimen>
+
+    <dimen name="padding1">10dp</dimen>
+    <dimen name="padding2">3dp</dimen>
+    <dimen name="aw">8dp</dimen>
+    <dimen name="ah">4dp</dimen>
+
+    <dimen name="sizen25">-22dp</dimen>
+    <dimen name="sizen12">-11dp</dimen>
+    <dimen name="sizen10">-9dp</dimen>
+    <dimen name="sizen8">-7dp</dimen>
+    <dimen name="sizen6">-5dp</dimen>
+    <dimen name="sizen4">-4dp</dimen>
+    <dimen name="sizen2">-2dp</dimen>
+    <dimen name="size1">1dp</dimen>
+    <dimen name="size2">2dp</dimen>
+    <dimen name="size3">3dp</dimen>            <!-- 5px for WVGA -->
+    <dimen name="size4">4dp</dimen>
+    <dimen name="size5">4dp</dimen>
+    <dimen name="size6">5dp</dimen>
+    <dimen name="size7">6dp</dimen>            <!-- 10px for WVGA -->
+    <dimen name="size8">7dp</dimen>
+    <dimen name="size9">8dp</dimen>
+    <dimen name="size10">9dp</dimen>
+    <dimen name="size11">10dp</dimen>
+    <dimen name="size12">11dp</dimen>
+    <dimen name="size13">12dp</dimen>        <!-- 20px for WVGA -->
+    <dimen name="size14">12dp</dimen>
+    <dimen name="size15">13dp</dimen>
+    <dimen name="size16">14dp</dimen>
+    <dimen name="size17">15dp</dimen>        <!-- 25px for WVGA -->
+    <dimen name="size18">16dp</dimen>
+    <dimen name="size19">17dp</dimen>
+    <dimen name="size20">18dp</dimen>
+    <dimen name="size21">19dp</dimen>
+    <dimen name="size22">20dp</dimen>
+    <dimen name="size23">20dp</dimen>
+    <dimen name="size24">21dp</dimen>
+    <dimen name="size25">22dp</dimen>
+    <dimen name="size26">23dp</dimen>
+    <dimen name="size27">24dp</dimen>        <!-- 40px for WVGA -->
+    <dimen name="size28">25dp</dimen>
+    <dimen name="size30">27dp</dimen>
+    <dimen name="size31">28dp</dimen>
+    <dimen name="size32">28dp</dimen>
+    <dimen name="size33">29dp</dimen>        <!-- 50px for WVGA -->
+    <dimen name="size34">30dp</dimen>
+    <dimen name="size35">31dp</dimen>        <!-- 52px for WVGA -->
+    <dimen name="size36">32dp</dimen>
+    <dimen name="size37">33dp</dimen>        <!-- 56px for WVGA -->
+    <dimen name="size38">34dp</dimen>
+    <dimen name="size39">35dp</dimen>
+    <dimen name="size40">36dp</dimen>
+    <dimen name="size41">36dp</dimen>
+    <dimen name="size42">37dp</dimen>
+    <dimen name="size43">38dp</dimen>        <!-- 65px for WVGA -->
+    <dimen name="size44">39dp</dimen>
+    <dimen name="size45">40dp</dimen>        <!-- 68px for WVGA -->
+    <dimen name="size46">41dp</dimen>
+    <dimen name="size47">42dp</dimen>
+    <dimen name="size48">43dp</dimen>
+    <dimen name="size49">44dp</dimen>
+    <dimen name="size50">44dp</dimen>
+    <dimen name="size51">45dp</dimen>
+    <dimen name="size52">46dp</dimen>
+    <dimen name="size53">47dp</dimen>
+    <dimen name="size54">48dp</dimen>
+    <dimen name="size55">49dp</dimen>
+    <dimen name="size56">50dp</dimen>
+    <dimen name="size57">51dp</dimen>
+    <dimen name="size58">52dp</dimen>
+    <dimen name="size59">52dp</dimen>
+    <dimen name="size60">53dp</dimen>
+    <dimen name="size61">54dp</dimen>        <!-- 92px for WVGA -->
+    <dimen name="size62">55dp</dimen>
+    <dimen name="size63">56dp</dimen>
+    <dimen name="size64">57dp</dimen>
+    <dimen name="size65">58dp</dimen>
+    <dimen name="size66">59dp</dimen>
+    <dimen name="size67">60dp</dimen>        <!-- 100px for WVGA -->
+    <dimen name="size68">60dp</dimen>
+    <dimen name="size69">61dp</dimen>
+    <dimen name="size70">62dp</dimen>
+    <dimen name="size71">63dp</dimen>
+    <dimen name="size72">64dp</dimen>
+    <dimen name="size73">65dp</dimen>
+    <dimen name="size74">66dp</dimen>
+    <dimen name="size75">67dp</dimen>
+    <dimen name="size76">68dp</dimen>
+    <dimen name="size77">68dp</dimen>
+    <dimen name="size78">69dp</dimen>
+    <dimen name="size79">70dp</dimen>
+    <dimen name="size80">71dp</dimen>
+    <dimen name="size81">72dp</dimen>        <!-- 122px for WVGA -->
+    <dimen name="size82">73dp</dimen>
+    <dimen name="size83">74dp</dimen>
+    <dimen name="size84">75dp</dimen>
+    <dimen name="size85">76dp</dimen>
+    <dimen name="size86">76dp</dimen>
+    <dimen name="size87">77dp</dimen>
+    <dimen name="size88">78dp</dimen>
+    <dimen name="size89">79dp</dimen>
+    <dimen name="size90">80dp</dimen>
+    <dimen name="size91">81dp</dimen>
+    <dimen name="size92">82dp</dimen>
+    <dimen name="size93">83dp</dimen>
+    <dimen name="size94">84dp</dimen>
+    <dimen name="size95">84dp</dimen>
+    <dimen name="size96">85dp</dimen>
+    <dimen name="size97">86dp</dimen>        <!-- 145px for WVGA -->
+    <dimen name="size98">87dp</dimen>
+    <dimen name="size99">88dp</dimen>
+    <dimen name="size100">89dp</dimen>
+    <dimen name="size101">90dp</dimen>
+    <dimen name="size102">91dp</dimen>
+    <dimen name="size103">92dp</dimen>
+    <dimen name="size104">92dp</dimen>
+    <dimen name="size105">93dp</dimen>
+    <dimen name="size106">94dp</dimen>
+    <dimen name="size107">95dp</dimen>
+    <dimen name="size108">96dp</dimen>
+    <dimen name="size109">97dp</dimen>
+    <dimen name="size110">98dp</dimen>
+    <dimen name="size111">99dp</dimen>
+    <dimen name="size112">100dp</dimen>
+    <dimen name="size113">100dp</dimen>        <!-- 170px for WVGA -->
+    <dimen name="size114">101dp</dimen>
+    <dimen name="size115">102dp</dimen>
+    <dimen name="size116">103dp</dimen>
+    <dimen name="size117">104dp</dimen>
+    <dimen name="size118">105dp</dimen>
+    <dimen name="size119">106dp</dimen>
+    <dimen name="size120">107dp</dimen>
+    <dimen name="size121">108dp</dimen>
+    <dimen name="size122">108dp</dimen>
+    <dimen name="size123">109dp</dimen>
+    <dimen name="size124">110dp</dimen>
+    <dimen name="size125">111dp</dimen>
+    <dimen name="size126">112dp</dimen>
+    <dimen name="size127">113dp</dimen>        <!-- 190px for WVGA -->
+    <dimen name="size128">114dp</dimen>
+    <dimen name="size129">115dp</dimen>
+    <dimen name="size130">116dp</dimen>
+    <dimen name="size131">116dp</dimen>
+    <dimen name="size132">117dp</dimen>
+    <dimen name="size133">118dp</dimen>
+    <dimen name="size134">119dp</dimen>
+    <dimen name="size135">121dp</dimen>
+    <dimen name="size136">121dp</dimen>
+    <dimen name="size137">122dp</dimen>
+    <dimen name="size138">123dp</dimen>
+    <dimen name="size139">124dp</dimen>
+    <dimen name="size140">124dp</dimen>
+    <dimen name="size141">125dp</dimen>    <!-- 211px for 4x1 widget width -->
+    <dimen name="size142">126dp</dimen>
+    <dimen name="size143">127dp</dimen>
+    <dimen name="size144">128dp</dimen>
+    <dimen name="size145">129dp</dimen>
+    <dimen name="size146">130dp</dimen>
+    <dimen name="size147">131dp</dimen>
+    <dimen name="size148">132dp</dimen>
+    <dimen name="size149">132dp</dimen>
+    <dimen name="size150">133dp</dimen>
+    <dimen name="size151">134dp</dimen>
+    <dimen name="size152">135dp</dimen>
+    <dimen name="size153">136dp</dimen>
+    <dimen name="size154">137dp</dimen>
+    <dimen name="size155">138dp</dimen>
+    <dimen name="size156">139dp</dimen>
+    <dimen name="size157">140dp</dimen>
+    <dimen name="size158">140dp</dimen>
+    <dimen name="size159">141dp</dimen>
+    <dimen name="size160">142dp</dimen>
+    <dimen name="size161">143dp</dimen>
+    <dimen name="size162">144dp</dimen>
+    <dimen name="size163">145dp</dimen>
+    <dimen name="size164">146dp</dimen>
+    <dimen name="size165">147dp</dimen>
+    <dimen name="size166">148dp</dimen>
+    <dimen name="size167">148dp</dimen>
+    <dimen name="size168">149dp</dimen>
+    <dimen name="size169">150dp</dimen>
+    <dimen name="size170">151dp</dimen>
+    <dimen name="size171">152dp</dimen>
+    <dimen name="size172">153dp</dimen>
+    <dimen name="size173">154dp</dimen>
+    <dimen name="size174">155dp</dimen>
+    <dimen name="size175">156dp</dimen>
+    <dimen name="size176">156dp</dimen>
+    <dimen name="size177">157dp</dimen>
+    <dimen name="size178">158dp</dimen>
+    <dimen name="size179">159dp</dimen>
+    <dimen name="size180">160dp</dimen>
+    <dimen name="size181">161dp</dimen>
+    <dimen name="size182">162dp</dimen>
+    <dimen name="size183">163dp</dimen>
+    <dimen name="size184">164dp</dimen>
+    <dimen name="size185">164dp</dimen>
+    <dimen name="size186">165dp</dimen>
+    <dimen name="size187">166dp</dimen>
+    <dimen name="size188">167dp</dimen>
+    <dimen name="size189">168dp</dimen>
+    <dimen name="size190">169dp</dimen>
+    <dimen name="size191">170dp</dimen>
+    <dimen name="size192">171dp</dimen>
+    <dimen name="size193">172dp</dimen>
+    <dimen name="size194">172dp</dimen>
+    <dimen name="size195">173dp</dimen>
+    <dimen name="size196">174dp</dimen>
+    <dimen name="size197">175dp</dimen>
+    <dimen name="size198">176dp</dimen>
+    <dimen name="size199">177dp</dimen>
+    <dimen name="size200">178dp</dimen>
+    <dimen name="size201">179dp</dimen>
+    <dimen name="size202">180dp</dimen>
+    <dimen name="size203">180dp</dimen>
+    <dimen name="size204">181dp</dimen>
+    <dimen name="size205">182dp</dimen>
+    <dimen name="size206">183dp</dimen>
+    <dimen name="size207">184dp</dimen>
+    <dimen name="size208">185dp</dimen>
+    <dimen name="size209">186dp</dimen>
+    <dimen name="size210">187dp</dimen>
+    <dimen name="size211">188dp</dimen>
+    <dimen name="size212">188dp</dimen>
+    <dimen name="size213">189dp</dimen>
+    <dimen name="size214">190dp</dimen>
+    <dimen name="size215">191dp</dimen>
+    <dimen name="size216">192dp</dimen>
+    <dimen name="size217">193dp</dimen>
+    <dimen name="size218">194dp</dimen>
+    <dimen name="size219">195dp</dimen>
+    <dimen name="size220">196dp</dimen>
+    <dimen name="size221">196dp</dimen>
+    <dimen name="size222">197dp</dimen>
+    <dimen name="size223">198dp</dimen>
+    <dimen name="size224">199dp</dimen>
+    <dimen name="size225">200dp</dimen>
+    <dimen name="size226">201dp</dimen>
+    <dimen name="size227">202dp</dimen>
+    <dimen name="size228">203dp</dimen>
+    <dimen name="size229">204dp</dimen>
+    <dimen name="size230">204dp</dimen>
+    <dimen name="size231">205dp</dimen>
+    <dimen name="size232">206dp</dimen>
+    <dimen name="size233">207dp</dimen>
+    <dimen name="size234">208dp</dimen>
+    <dimen name="size235">209dp</dimen>
+    <dimen name="size236">210dp</dimen>
+    <dimen name="size237">211dp</dimen>
+    <dimen name="size238">212dp</dimen>
+    <dimen name="size239">212dp</dimen>
+    <dimen name="size240">213dp</dimen>
+    <dimen name="size241">214dp</dimen>
+    <dimen name="size242">215dp</dimen>
+    <dimen name="size243">216dp</dimen>
+    <dimen name="size244">217dp</dimen>
+    <dimen name="size245">218dp</dimen>
+    <dimen name="size246">219dp</dimen>
+    <dimen name="size247">220dp</dimen>
+    <dimen name="size248">220dp</dimen>
+    <dimen name="size249">221dp</dimen>
+    <dimen name="size250">222dp</dimen>
+    <dimen name="size260">231dp</dimen>
+    <dimen name="size270">240dp</dimen>
+    <dimen name="size280">249dp</dimen>
+    <dimen name="size290">258dp</dimen>
+    <dimen name="size293">260dp</dimen>    <!-- 440px for 4x1 widget width -->
+    <dimen name="size296">263dp</dimen>
+    <dimen name="size301">268dp</dimen>
+    <dimen name="size320">284dp</dimen>
+    <dimen name="size360">320dp</dimen>
+    <dimen name="size368">327dp</dimen>
+    <dimen name="size300">300dp</dimen>
+
+
+    <!-- Custom widget parameters -->
+    <dimen name="TextView_MinSize">@dimen/txtSizeF1</dimen>
+
+    <!-- The width the pillar in the custom view Histogram. -->
+    <dimen name="Histogram_width">@dimen/size20</dimen>
+
+    <dimen name="Histogram_top_face_height">@dimen/size10</dimen>
+    <dimen name="Histogram_des_height">@dimen/size15</dimen>
+    <dimen name="Histogram_single_pillar_view_width">@dimen/size40</dimen>
+    <dimen name="Histogram_dual_pillar_view_width">@dimen/size50</dimen>
+    <dimen name="Histogram_pillar_contour_width">@dimen/size1</dimen>
+
+    <!-- The width for two pillars in the custom view Histogram. -->
+    <dimen name="Histogream_dual_w">@dimen/size14</dimen>
+
+    <dimen name="Histogream_dual_interval">@dimen/size5</dimen>
+
+    <!-- The width the interval between pillars in the custom view Histogram. -->
+    <dimen name="Histogram_interval">@dimen/size16</dimen>
+
+    <dimen name="tallyPicWidth">@dimen/size120</dimen>
+    <!-- px -->
+    <dimen name="size1px">1px</dimen>
+    <dimen name="inputAccountLineBetween">@dimen/size22</dimen>
+
+    <dimen name="statusBarHeight">25dp</dimen>
+
+    <dimen name="si_default_text_size">18sp</dimen>
+    <dimen name="si_default_radius_max">2.5dp</dimen>
+    <dimen name="si_default_radius_min">2.5dp</dimen>
+
+    <!-- Padding between highlighting view, message view and gesture view. -->
+    <dimen name="showcase_element_padding">1dp</dimen>
+    <!-- Distance between message view and show view. -->
+    <dimen name="showcase_message_highlight_padding">50dp</dimen>
+    <dimen name="showcase_message_highlight_max_padding">62dp</dimen>
+    <!-- Minor distance between message view and the edge of screen. -->
+    <dimen name="showcase_message_min_screen_padding">16dp</dimen>
+    <dimen name="showcase_message_quotation_padding">3dp</dimen>
+    <dimen name="showcase_gesture_size">38dp</dimen>
+    <dimen name="showcase_gesture_horizontal_offset">9dp</dimen>
+
+    <dimen name="budget_circle_progress_view_paint_stroke_min">2dp</dimen>
+    <dimen name="budget_line_progress_view_paint_stroke">5dp</dimen>
+
+    <dimen name="btn_text_size">16sp</dimen>
+    <dimen name="view_text_size">16sp</dimen>
+
+    <!-- tooltips view. -->
+
+    <dimen name="tooltip_default_arrow_height">8dp</dimen>
+    <dimen name="tooltip_default_arrow_width">16dp</dimen>
+    <dimen name="tooltip_default_corner_radius">4dp</dimen>
+    <dimen name="tooltip_default_offset">0dp</dimen>
+    <integer name="tooltip_default_arrow_location">1</integer>
+    <integer name="tooltip_default_arrow_alignment">3</integer>
+
+    <dimen name="action_button_width">48dp</dimen>
+    <dimen name="action_button_padding">16dp</dimen>
+</resources>

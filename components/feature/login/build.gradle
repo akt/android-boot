@@ -29,7 +29,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation deps.kotlin.stdlib
-    implementation deps.androidX.appCompat
+    implementation deps.androidX.appcompat
     implementation deps.androidX.ktx
     implementation project(':lib-core')
 

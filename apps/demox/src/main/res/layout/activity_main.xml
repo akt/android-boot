@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.ak.demo.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/chartPieContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/to_pie_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@color/pie_part_1"
+            android:onClick="onClick"
+            android:text="pie"
+            android:textColor="@android:color/white"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/to_line_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/pie_part_2"
+            android:onClick="onClick"
+            android:text="line"
+            android:textColor="@android:color/white"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/to_switch_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/pie_part_3"
+            android:onClick="onClick"
+            android:text="switch"
+            android:textColor="@android:color/white"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/to_video_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/pie_part_5"
+            android:onClick="onClick"
+            android:text="video"
+            android:textColor="@android:color/white"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/rx_action"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="rx_action"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_6"
+            android:textSize="19sp" />
+
+
+        <TextView
+            android:id="@+id/filter_test"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="filter_test"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_7"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/dagger_test"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="dagger_test"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_8"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/kt_test"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="kt_test"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_9"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/epoxy_test"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="epoxy_test"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_1"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/crash_test"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="crash me !!!!"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_2"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/db_test"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="db"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_2"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/ui_demo"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="ui"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_2"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/coroutine_demo"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="coroutine"
+            android:onClick="onClick"
+            android:textColor="@android:color/white"
+            android:background="@color/pie_part_6"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

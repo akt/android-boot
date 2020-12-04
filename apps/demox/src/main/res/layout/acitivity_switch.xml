@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.ak.demo.SwitchActivity">
+
+
+    <chart.PageScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/left"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="22sp"
+
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </chart.PageScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

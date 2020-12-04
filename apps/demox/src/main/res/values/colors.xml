@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pie_part_8">#FF9F56FA</color>
+    <color name="pie_part_9">#FFFE4BFB</color>
+
+    <color name="pie_bg">#f5f6f7</color>
+
+
+    <color name="createcredetail">#666666</color>
+
+    <color name="light_blue">#4EBFEB</color>
+
+    <color name="grey_line">#CFD3D9</color>
+
+    <color name="grey_text">#8c8c8c</color>
+
+
+    <color name="accent">#d94b40</color>
+    <color name="primary">@android:color/white</color>
+    <color name="primaryDark">#999999</color>
+
+    <!--Color for base theme start-->
+    <color name="actionbarBgLegacy">#d94b40</color>
+    <color name="baseBg">#F6F6F6</color>
+    <drawable name="baseBg">#F6F6F6</drawable>
+    <!--Color for base theme end-->
+
+    <!-- 统一的 Bar 分割线颜色 -->
+    <color name="barDivider">#cfcfcf</color>
+
+    <!-- ActionBar 相关颜色 -->
+    <color name="actionBarDivider">@color/barDivider</color>
+
+    <!-- PagerSlidingTabStrip 相关颜色 -->
+    <color name="tabUnderlineColor">@color/barDivider</color>
+    <color name="tabIndicatorColor">#ffff6044</color>
+
+    <!-- 统一的内容分割线颜色 -->
+    <color name="contentDivider">#ffececec</color>
+
+    <drawable name="jz_lr_opacity15">#26000000</drawable>
+    <drawable name="jz_lr_white">#FFFFFF</drawable>
+    <drawable name="jz_lr_transparent">#00000000</drawable>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="pswHint">#ff1800</color>
+    <color name="darkGray">#333333</color>  <!--List item 上主体文字的颜色-->
+    <color name="lightGray">#B5B9BE</color> <!--List item 上额外信息文字的颜色，备注等-->
+    <color name="darkOrange">#ffc40f</color>
+    <color name="txtLink">#0297ff</color>
+    <color name="txtEdit">#FF595959</color>
+
+
+    <color name="dialogBtnOkBg">#e99d1a</color>  <!--弹出层上确认按钮的字体颜色-->
+    <color name="dialogBtnCancelBg">#aeaeae</color><!--弹出层上取消按钮的字体颜色-->
+
+    <!--Color for budget start-->
+    <color name="budgetBg">#D3D7DD</color>
+    <color name="budgetFgNormal">#268F06</color>
+    <color name="budgetFgWarning">#DC8324</color>
+    <color name="budgetFgOverfull">#D74937</color>
+    <!--Color for budget end-->
+
+    <color name="lightBlack">#646464</color> <!-- 灰色大button上字体颜色 -->
+    <color name="lightBlue">#374B69</color> <!-- 日期左右切换，斜纹背景的title 等 -->
+    <color name="titleGray">#666666</color>
+    <color name="dialog_bg_color">#66000000</color>
+
+    <color name="lightGrayD">#999999</color> <!--  灰色button disable状态的文字 ，备注等-->
+    <color name="gray_cbced7">#cbced7</color> <!--  灰色 银行短信入账“短信入账20笔”颜色-->
+    <color name="red_ad1f1f">#ad1f1f</color> <!--  灰色 银行短信入账“短信入账20笔”颜色-->
+    <color name="brown">#9c3000</color>
+    <color name="lightBrown">#905D2F</color> <!-- 黄色list title上面的文字，所有黄色背景的小标题颜色 -->
+    <color name="divider">#dadada</color>
+    <color name="divider3">#eb6100</color><!-- 银行短信入账“最近30天，”颜色 -->
+    <color name="divider4">#d8d8d8</color>
+    <color name="divider5">#e4e4e4</color>
+    <color name="divider6">#ececec</color>
+    <color name="divider7">#e5e5e5</color>
+    <color name="divider8">#ececec</color>
+    <color name="lightYellow">#FDF8E5</color> <!-- list 标题栏 -->
+
+    <color name="infoColor">#000000</color>
+    <color name="highColor">#069c0d</color>
+    <color name="lowColor">#D80909</color>
+    <color name="search_hint">#888888</color>
+    <color name="orange">#C00018</color>
+    <color name="lightOrange">#FF8B26</color>
+    <color name="creditchoosecolor">#808080</color>
+    <color name="tallyColor">#754c24</color>
+    <color name="moneyType">#5f7eb4</color>
+    <color name="moneyTypeP">#b2b2b2</color>
+    <color name="inputCreditAddName">#2b2b2b</color>
+    <drawable name="homebarBg">#373a43</drawable>
+    <color name="txtHomeView">#adb0b6</color>
+    <color name="btntradegray">#b3afa9</color>
+    <color name="btngraydisable">#c8c8c8</color>
+    <color name="creditBillRed">#C80032</color>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="listItemDarkGary">#F9F9F9</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <color name="transparent">#00000000</color>
+    <drawable name="opacity15">#26000000</drawable>
+    <drawable name="itemChecked_2">#bebebe</drawable>
+    <color name="detailTitilebg">#ebebeb</color>
+    <color name="detailSum">#905e30</color>
+    <color name="opacity02">#05000000</color>
+    <color name="opacity04">#0A000000</color>
+    <color name="opacity15">#26000000</color>
+    <color name="opacity16">#27000000</color>
+    <color name="opacity18">#2E000000</color>
+    <color name="opacity20">#33000000</color>
+    <color name="opacity25">#3F000000</color>
+    <color name="opacity28">#47000000</color>
+    <color name="opacity30">#4C000000</color>
+    <color name="opacity40">#66000000</color>
+    <color name="opacity50">#88000000</color>
+    <color name="opacity60">#99000000</color>
+    <color name="opacity70">#B2000000</color>
+    <color name="opacity80">#CC000000</color>
+    <color name="opacity90">#E5000000</color>
+    <color name="statistic_line_color">#ECEFF6</color>
+    <drawable name="opacity10">#19000000</drawable>
+    <drawable name="opacity05">#0D000000</drawable>
+    <drawable name="apacity60">#99ffffff</drawable>
+    <drawable name="apacity30">#4Cffffff</drawable>
+    <drawable name="apacity16">#28ffffff</drawable>
+    <drawable name="apacity20">#33ffffff</drawable>
+    <drawable name="apacity80">#CCFFFFFF</drawable>
+    <drawable name="apacity65">#A6FFFFFF</drawable>
+    <color name="apacity28">#47FFFFFF</color>
+    <color name="apacity36">#5cFFFFFF</color>
+    <color name="apacity40">#66ffffff</color>
+    <color name="apacity50">#7fffffff</color>
+    <color name="apacity60">#99ffffff</color>
+    <color name="apacity85">#D8ffffff</color>
+    <color name="apacity80">#CCFFFFFF</color>
+    <color name="apacity90">#E5FFFFFF</color>
+    <drawable name="typeSubNor">#FAFBFC</drawable>
+    <drawable name="bg_itemcolor">#efefef</drawable>
+    <color name="bgNotice">#fff0a0</color>
+    <color name="cNoticeDes">#ba8442</color>
+    <color name="outgoMoney">#ff5e5b</color>
+    <color name="incomeMoney">#1dcc91</color>
+    <color name="opacity_outgoMoney">#4cff5e5b</color>
+    <color name="opacity_incomeMoney">#4c1dcc91</color>
+    <color name="clearMoney">#9094a0</color>
+    <color name="pie_part_1">#FF6E7FB5</color>
+    <color name="pie_part_2">#FFC5212C</color>
+    <color name="pie_part_3">#FF34A9B1</color>
+    <color name="pie_part_4">#FF564290</color>
+    <color name="pie_part_5">#FFEEA556</color>
+    <color name="pie_part_6">#FF61C25A</color>
+    <color name="pie_part_7">#FF8CADD7</color>
+    <color name="inputCreditInfo">#415064</color>
+    <color name="inputCreditInfo_2">#727983</color>
+    <color name="lightred">#9a1a1a</color>
+    <color name="hintColor">#b4b4b4</color>
+    <drawable name="dialogDivider">#505050</drawable>
+    <drawable name="pressSpinner">#E1E5E9</drawable>
+    <drawable name="actionbarItemClick">#b52f25</drawable>
+    <color name="fundTabSelect">#293b53</color>
+    <color name="fundTabUnselect">#5d718f</color>
+    <color name="fundFootShadowColor2">#253548</color>
+    <color name="otherServiceType">#4a5873</color>
+    <color name="balanceChangeTxt">#5e7db3</color>
+    <color name="newProgress">#2a9a60</color>
+    <color name="analysisPrompt">#666666</color>
+    <color name="analyDivider">#f5f5f5</color>
+    <color name="monthSubsidy">#ef970d</color>
+    <color name="openSmsPass">#0097ff</color>
+    <color name="openSmsPassP">#144b7c</color>
+    <color name="safeLevel">#ff9602</color>
+    <color name="chooseBookBg">#e75b44</color>
+    <color name="cNowLevel">#ff9602</color>
+
+    <color name="txtComment">#505050</color>
+    <color name="txtDescription">#F19149</color>
+    <color name="txtGoToRealize">#DC2C21</color>
+    <color name="txtGuideGoTo">#D94B40</color>
+    <color name="commonFuncitonBg">#EBEAEC</color>
+
+    <color name="tabsUnderLine">#B2B2B2</color>
+    <color name="btnCalcOK">#F26522</color>
+    <color name="txtRadio">#969999</color>
+    <color name="accountTitleBg">#FAFAFA</color>
+    <color name="defaultBtnTxt">#454545</color>
+    <color name="disableBtnTxt">#BBBBBB</color>
+    <color name="txtMainBtn">#fff26522</color>
+    <color name="txtMainBtnDisable">#ffcacacc</color>
+    <color name="continueLayoutBg">#C0C0C0</color>
+    <color name="listViewBg">@color/white</color>
+    <drawable name="dBgChooseDateTitleN">#F8F8F8</drawable>
+    <color name="bgChooseDateTitleN">#F8F8F8</color>
+    <drawable name="dDateVerticalDivider">#E8E8E8</drawable>
+    <color name="choosedDateBorder">#F7B21A</color>
+    <color name="choosedDateBg">#FEF9ED</color>
+    <color name="txtDisableCycle">#dedede</color>
+    <color name="cViewStartDate">#0097FF</color>
+    <color name="btn_pressed">#ff33b5e5</color>
+    <color name="btn_focused">#ff0099cc</color>
+    <color name="btn_normal">#00000000</color>
+    <color name="otherDetailTitlebg">#f7f7f7</color>
+
+    <color name="popup_bg_color">#EE666666</color>
+    <color name="separator_color">#BBBBBB</color>
+    <color name="popup_text_color">#FFFFFF</color>
+    <drawable name="colorLoading1">#ffacd1</drawable>
+    <drawable name="colorLoading2">#f2cba4</drawable>
+    <drawable name="colorLoading3">#6cd2ff</drawable>
+    <drawable name="colorLoading4">#6cd2a8</drawable>
+    <color name="corlorLoading4Small">#90dbbb</color>
+    <color name="bgBeg">#FFEFD8</color>
+    <color name="colorBegOkN">#00D2C9</color>
+    <color name="colorBegOkP">#00ABA2</color>
+    <color name="colorBegCN">#B4B4B5</color>
+    <color name="colorBegCP">#727271</color>
+    <color name="begTxtColor">#FF8B00</color>
+    <color name="bookGroupOutgoMoney">#DE4A3F</color>
+    <color name="bookGroupIncomeMoney">#32B572</color>
+
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+
+    <color name="detail_item_bg_n">#ffcc4a</color>
+    <color name="detail_item_bg_p">#ebbc44</color>
+    <color name="detail_item_bg2_n">#ffb800</color>
+    <color name="detail_item_bg2_p">#ebaa00</color>
+    <color name="detail_item_bg3_n">#ff3c30</color>
+    <color name="detail_item_bg3_p">#eb372c</color>
+    <color name="txtBackHome">#ec5b42</color>
+
+
+    <color name="globalLineGray">#B5B9BE</color>
+    <color name="globalTxtGray">#B5B9BE</color>
+    <color name="globalTxtBlue">#2087FC</color>
+    <color name="globalTxtBlueDeep">#015b99</color>
+    <color name="globalTxtRed">#FF6E6E</color>
+    <color name="globalTxtGrayDepth">#999999</color>
+    <color name="cUpLevelDes">#0197FF</color>
+    <color name="cSettinglv">#d25f21</color>
+    <color name="cSettinglvline">#A11C0E</color>
+    <color name="bgSettinglv">#FED61B</color>
+    <color name="setTextBlue">#0297ff</color>
+    <color name="merge_des">#ba8442</color>
+    <color name="newLightGray">#aeaeb2</color>
+    <color name="accLoading">#fffac8</color>
+    <color name="txtloading">#c29c56</color>
+    <color name="cerror">#f4695e</color>
+    <color name="bgTBBg">#d65641</color>
+    <color name="taobaoClose">#d9d8d4</color>
+    <color name="txtBookHelper">#007aff</color>
+    <color name="moreBtnBg">#3d414c</color>
+    <color name="moreBtnBgN">#343741</color>
+    <color name="moreDivider">#2f3138</color>
+    <color name="tooltips">#FF482E</color>
+    <color name="main_input_divider">#f05631</color>
+    <color name="main_input_divider_v2">#F55729</color>
+    <color name="main_short_fast_c">#815622</color>
+    <color name="loadingError">#ffebeb</color>
+    <color name="action_bar_tab_light">#fff3c9c6</color>
+    <color name="add_book_c">#7eacd8</color>
+    <color name="home_bottom_bar_text_selected">#ff6044</color>
+    <color name="home_bottom_bar_text_default">#929292</color>
+    <color name="chart_n_c">#4ebcf8</color>
+    <color name="chart_p_c">#fe8942</color>
+    <color name="chart_divicer_c">#b1b1b1</color>
+    <color name="imageview_border">#e5e5e5</color>
+    <color name="char_txt_c">#818181</color>
+    <color name="si_default_text_color">#FF0000</color>
+    <color name="si_default_text_color_selected">#FF00FF</color>
+    <color name="si_default_indicator_bg">#ee9999</color>
+    <color name="bg_guide_c">#faf1d2</color>
+    <color name="guideTxt">#7a5430</color>
+    <color name="linkedCreditCardDesc">#f04a3a</color>
+    <color name="blueBtn">#0197ff</color>
+    <color name="lightGrayE">#f6f6f6</color>
+    <color name="lightGrayF">#767676</color>
+    <color name="darkGrayA">#444546</color>
+    <color name="guideBtnBg">#f27f00</color>
+    <color name="divider_title">#949494</color>
+    <color name="detail_divider2">#ececec</color>
+    <color name="detail_divider">#cfcfcf</color>
+    <color name="detail_month">#707278</color>
+    <color name="detail_year">#b5b9be</color>
+    <color name="detail_text_green">#6cc660</color>
+    <color name="detail_text_red">#eb6668</color>
+    <color name="detail_text_gray">#b5bcbf</color>
+    <color name="btn_trade_gray">#d9d9d9</color>
+    <color name="detail_text_week">#d6dbe1</color>
+    <color name="detail_input_tab_type">#929292</color>
+    <color name="detail_stat_bg">#f0f0f0</color>
+    <color name="add_book_bg">#d7d7d7</color>
+    <color name="cUnImport">#3a1c00</color>
+    <color name="lightBlueB">#1db4e5</color>
+    <color name="circlePageIndicatorColor">#d94b40</color>
+    <color name="un_sync_yellow">#fffdd4</color>
+    <color name="txtDisableBtn">#cacacc</color>
+    <color name="txt_sync_failure">#877b5f</color>
+    <color name="txt_voice_red_packet_title">#fcd82f</color>
+    <color name="txt_voice_red_packet_content">#fbece9</color>
+    <color name="txt_guide_group_book_sence">#f26522</color>
+    <color name="txt_date">#90949c</color>
+    <color name="bg_detail_item">#e5e5e5</color>
+    <color name="my_book_list_bg">@color/apacity90</color>
+    <color name="stat_options_sell">#595959</color>
+    <color name="budget_bg_color">#fafbfd</color>
+    <color name="pl_dialog_bg">#EE000000</color>
+    <color name="image_guide_button">#844b39</color>
+    <color name="image_guide_button_bg">#ffc501</color>
+    <color name="image_guide_button_bg_pressed">#ffba00</color>
+    <color name="remiburse_red_tab_strip">#d94b40</color>
+
+    <!-- 记账改版-->
+    <color name="trade_light_grey_text">#595959</color>
+    <color name="trade_type_sel_text">#FF6044</color>
+    <color name="trade_type_pre_text">#7F595959</color>
+    <color name="trade_type_unsel_stroke">#E7E7E7</color>
+    <color name="trade_type_sel_stroke">#FD5F43</color>
+    <color name="trade_type_pre_stroke">#7FE7E7E7</color>
+    <drawable name="dBgCalcSimple">#D1D1D1</drawable>
+    <drawable name="account_item_bg">#FAFAFA</drawable>
+    <color name="account_head_text">#595959</color>
+    <color name="trade_un_sync">#fff1e3</color>
+    <color name="trade_view_select_bg">#F9F9F9</color>
+    <color name="trade_time_view_select_bg">#d4d4d4</color>
+
+    <color name="calcBtnTxt">#595959</color>
+    <color name="calcDiv">#B8B8BC</color>
+    <color name="btnCalcP">#CBCBCA</color>
+    <color name="calcDivTop">#D3D4D5</color>
+
+    <color name="trade_save_bg_n">#FF9D46</color>
+    <color name="trade_save_bg_p">#4CFF9D46</color>
+    <color name="trade_saveadd_txt">#FF5B5B5B</color>
+
+    <color name="trade_incomeMoney">#1BC44C</color>
+    <color name="trade_gray_bg">#FFF9F9F9</color>
+    <color name="trade_gray_bg_p">#CCF9F9F9</color>
+    <color name="trade_status_bg">#999999</color>
+    <color name="colorBackground">#E6000000</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="bg_yellow_button">#ffff9d46</color>
+    <color name="bg_yellow_button_pressed">#ffd9853b</color>
+    <color name="bg_yellow_button_disabled">#ffcacacc</color>
+    <color name="action_bar_back_bg_for_white_theme">#595959</color>
+    <color name="bg_status_bar">@color/primaryDark</color>
+    <color name="bg_forget_password">#FFAD57</color>
+
+    <color name="tx_product_purpose">#8C8C8C</color>
+
+    <color name="account_header_bg">#fc7558</color>
+</resources>

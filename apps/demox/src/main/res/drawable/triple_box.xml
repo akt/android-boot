@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/select_empty"
+        android:maxLevel="0"
+        android:minLevel="0" />
+    <item
+        android:drawable="@drawable/select_full"
+        android:maxLevel="1"
+        android:minLevel="1" />
+
+    <item
+        android:drawable="@drawable/select_partial_full"
+        android:maxLevel="2"
+        android:minLevel="2" />
+
+</level-list>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size106"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size34"
+            android:background="@color/account_header_bg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size72"
+            android:background="@color/lightGrayE" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bannerContentView"
+        android:layout_width="343dp"
+        android:layout_height="@dimen/size84"
+        android:layout_gravity="center"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivBanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/account_baner_test" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="@dimen/size13"
+            android:layout_height="@dimen/size13"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/size11"
+            android:layout_marginTop="@dimen/size11"
+            android:background="@drawable/ic_close_n" />
+    </FrameLayout>
+
+
+</FrameLayout>

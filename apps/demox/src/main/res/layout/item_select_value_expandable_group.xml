@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size50"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <filterview.widget.TripleCheckBox
+        android:id="@+id/check_box"
+        android:paddingLeft="@dimen/size16"
+        android:paddingRight="@dimen/size10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        />
+
+    <RelativeLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/darkGray"
+            android:textSize="@dimen/txtSize15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/expand_status"
+            android:layout_centerVertical="true"
+            android:textColor="@color/grey_text"
+            android:textSize="@dimen/txtSize13"/>
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/expand_status"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:button="@null"
+            android:drawableLeft="@drawable/check_expand"
+            android:paddingRight="@dimen/size13"
+            android:paddingLeft="@dimen/size7"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

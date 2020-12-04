@@ -4,15 +4,8 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion build_versions.target_sdk
 
-    defaultConfig {
-        applicationId "com.aboot"
-        minSdkVersion build_versions.min_sdk
-        targetSdkVersion build_versions.target_sdk
-        versionCode 1
-        versionName "1.0"
-    }
+    setDefaultConfig project
 
     buildTypes {
         release {
@@ -38,7 +31,7 @@ dependencies {
     implementation project(':lib-storage')
     implementation project(':lib-core')
     implementation deps.kotlin.stdlib
-    implementation deps.androidX.appCompat
+    implementation deps.androidX.appcompat
     implementation deps.androidX.ktx
     implementation deps.androidX.constraintLayout
 

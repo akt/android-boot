@@ -16,3 +16,34 @@ projects:
     path: apps/demo
     description: 'sample apps'
     publish: false
+
+# ------------------Following list demox related modules
+  apps-demox:
+    path: apps/demox
+    description: 'demox apps'
+    publish: false
+  demox-lib-bizinterface:
+    path: demox/lib/bizinterface
+    description: 'bizinterface lib'
+    publish: true
+  demox-lib-base:
+    path: demox/lib/base
+    description: 'base lib'
+    publish: true
+  demox-lib-gui:
+    path: demox/lib/gui
+    description: 'gui lib'
+    publish: true
+  demox-lib-MPChart:
+    path: demox/lib/MPChart
+    description: 'MPChart lib'
+    publish: true
+  demox-lib-db:
+    path: demox/lib/db
+    description: 'db lib'
+    publish: true
+  demox-feature-user:
+    path: demox/feature/user
+    description: 'user feature'
+    publish: true
+
