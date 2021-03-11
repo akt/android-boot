@@ -47,3 +47,9 @@ projects:
     description: 'user feature'
     publish: true
 
+# ---------- Real App
+  apps-principle:
+    path: apps/principle
+    description: 'principle apps'
+    publish: false
+
