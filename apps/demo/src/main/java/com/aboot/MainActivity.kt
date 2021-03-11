@@ -6,6 +6,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.aboot.di.provider.ApplicationComponentProvider
 import com.aboot.test.RemoteConfigTestActivity
+import com.aboot.test.WebviewActivity
 import com.biz.login.ui.LoginActivity
 import com.lab.core.modes.AppSuscription
 import com.lab.db.ui.BookActivity
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity() {
             R.id.to_db_activity -> startActivity(Intent(this, BookActivity::class.java))
             R.id.toLogin -> startActivity(Intent(this, LoginActivity::class.java))
             R.id.toRemoteConfig -> startActivity(Intent(this, RemoteConfigTestActivity::class.java))
+            R.id.toWebview -> startActivity(Intent(this, WebviewActivity::class.java))
         }
     }
 
