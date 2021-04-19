@@ -30,6 +30,8 @@ dependencies {
     implementation project(':feature-login')
     implementation project(':lib-storage')
     implementation project(':lib-core')
+    implementation project(':lib-request')
+    implementation deps.retrofit2.retrofit
     implementation deps.kotlin.stdlib
     implementation deps.androidX.appcompat
     implementation deps.androidX.ktx
