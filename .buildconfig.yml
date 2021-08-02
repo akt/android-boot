@@ -8,6 +8,10 @@ projects:
     path: components/lib/storage
     description: 'storage lib'
     publish: true
+  lib-request:
+    path: components/lib/request
+    description: 'request lib'
+    publish: true
   feature-login:
     path: components/feature/login
     description: 'login feature'
